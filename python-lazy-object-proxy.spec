@@ -3,7 +3,7 @@
 Summary:	A fast and thorough lazy object proxy
 Name:		python-lazy-object-proxy
 Version:	1.3.1
-Release:	1
+Release:	2
 Group:		Development/Python
 License:	BSD
 Url:		https://pypi.python.org/pypi/lazy-object-proxy
