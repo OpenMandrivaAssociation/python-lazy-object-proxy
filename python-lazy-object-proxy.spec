@@ -2,7 +2,7 @@
   
 Summary:	A fast and thorough lazy object proxy
 Name:		python-lazy-object-proxy
-Version:	1.4.2
+Version:	1.4.3
 Release:	1
 Group:		Development/Python
 License:	BSD
