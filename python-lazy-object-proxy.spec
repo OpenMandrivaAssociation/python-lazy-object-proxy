@@ -1,16 +1,17 @@
+%global debug_package %{nil}
 %define module	lazy-object-proxy
   
 Summary:	A fast and thorough lazy object proxy
 Name:		python-lazy-object-proxy
-Version:	1.4.3
-Release:	2
+Version:	1.5.1
+Release:	1
 Group:		Development/Python
 License:	BSD
 Url:		https://pypi.python.org/pypi/lazy-object-proxy
-Source0:	https://github.com/ionelmc/python-lazy-object-proxy/archive/v%{version}.tar.gz
+Source0:	https://github.com/ionelmc/python-lazy-object-proxy/archive/v%{version}/%{name}-%{version}.tar.gz
 Source100:	%{name}.rpmlintrc
 BuildRequires:	python-setuptools
-BuildRequires:	pkgconfig(python3)
+BuildRequires:	pkgconfig(python)
  
 %description 
 A common base representation of python source code for pylint
