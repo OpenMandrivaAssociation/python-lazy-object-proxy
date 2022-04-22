@@ -12,6 +12,7 @@ Source0:	https://github.com/ionelmc/python-lazy-object-proxy/archive/v%{version}
 Source100:	%{name}.rpmlintrc
 BuildRequires:	python-setuptools
 BuildRequires:  python3dist(setuptools-scm)
+BuildRequires:  python3dist(tomli)
 BuildRequires:	pkgconfig(python)
  
 %description 
