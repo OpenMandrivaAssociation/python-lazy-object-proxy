@@ -11,6 +11,8 @@ Url:		https://pypi.python.org/pypi/lazy-object-proxy
 Source0:	https://github.com/ionelmc/python-lazy-object-proxy/archive/v%{version}/%{name}-%{version}.tar.gz
 Source100:	%{name}.rpmlintrc
 BuildRequires:	python-setuptools
+BuildRequires:  python3dist(setuptools-scm)
+BuildRequires:  python3dist(tomli)
 BuildRequires:	pkgconfig(python)
  
 %description 
