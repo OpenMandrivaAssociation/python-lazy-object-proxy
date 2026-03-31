@@ -1,2 +1,2 @@
 # False positive
-addFilter("E: devel-file-in-non-devel-package")
+addFilter("W: devel-file-in-non-devel-package")
