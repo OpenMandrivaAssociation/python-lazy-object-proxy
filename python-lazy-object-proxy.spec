@@ -5,7 +5,7 @@
 Name:		python-lazy-object-proxy
 Summary:	A fast and thorough lazy object proxy
 Version:	1.12.0
-Release:	1
+Release:	2
 Group:		Development/Python
 License:	BSD
 URL:		https://github.com/ionelmc/python-lazy-object-proxy
@@ -24,6 +24,9 @@ A common base representation of python source code for pylint
 and other projects
 
 %build -p
+# The sdist is not a git checkout, so the versioning backend needs the version.
+export SETUPTOOLS_SCM_PRETEND_VERSION=%{version}
+
 export LDFLAGS="%{ldflags} -lpython%{py_ver}"
 
 %files
